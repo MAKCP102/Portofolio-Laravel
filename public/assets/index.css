@@ -1,0 +1,145 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--family-mafia);
+    box-sizing: border-box;
+}
+
+:root {
+    --family-mafia:font-family: 'Poppins', sans-serif;;
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .left-side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.profiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profiletext .imgbx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profiletext h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profiletext h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.container .right-side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactinfo {
+    padding-top: 40px;
+}
+
+.contactinfo ul {
+    position: relative;
+}
+
+.contactinfo ul li {
+     list-style: none;
+     position: relative;
+     margin: 10px 0;
+     cursor: pointer;
+}
+
+.contactinfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactinfo ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.education li {
+    margin-bottom: 15px;
+}
+
+.education h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.education h4 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+}
+
+.skills .box h4 {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+}
